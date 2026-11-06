@@ -3,6 +3,8 @@
 [hexwerk](https://github.com/thomas-schreck/hexwerk) — a native macOS hex editor with Kaitai Struct, YARA-X and scripting.
 
 ```sh
+brew tap thomas-schreck/tap
+brew trust thomas-schreck/tap                    # Homebrew asks before using third-party taps
 brew install --cask thomas-schreck/tap/hexwerk   # the app
 brew install thomas-schreck/tap/hexwerk          # the hexwerk command line tool
 ```
