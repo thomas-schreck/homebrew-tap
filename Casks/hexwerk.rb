@@ -8,6 +8,7 @@ cask "hexwerk" do
   homepage "https://github.com/thomas-schreck/hexwerk"
 
   depends_on arch: :arm64
+  depends_on :macos
 
   app "hexwerk.app"
 
