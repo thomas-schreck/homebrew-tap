@@ -13,6 +13,14 @@ class Hexwerk < Formula
     libexec.install "hexwerk", "magic.mgc"
     bin.install_symlink libexec/"hexwerk"
     prefix.install "LICENSE", "THIRD_PARTY_NOTICES.md"
+    # Completions and man page are in the archive since hexwerk#117; older
+    # releases do not have them.
+    if File.exist?("completions")
+      zsh_completion.install "completions/_hexwerk"
+      bash_completion.install "completions/hexwerk.bash" => "hexwerk"
+      fish_completion.install "completions/hexwerk.fish"
+      man1.install "man/hexwerk.1"
+    end
   end
 
   test do
