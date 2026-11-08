@@ -1,6 +1,6 @@
 cask "hexwerk" do
-  version "0.1.0"
-  sha256 "477c89963ef5b3993ef8e0ebe2da208bb529bd13c32e5be95063382fb7080a47"
+  version "0.2.0"
+  sha256 "84034a253a722946e17af2b6578eddcd4fd593e10a74fd4db0a6819e64ce5872"
 
   url "https://github.com/thomas-schreck/hexwerk/releases/download/v#{version}/hexwerk-#{version}.zip"
   name "hexwerk"

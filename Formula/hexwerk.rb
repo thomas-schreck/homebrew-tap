@@ -1,8 +1,8 @@
 class Hexwerk < Formula
   desc "Command-line hex tool with Kaitai Struct, YARA-X and scripting"
   homepage "https://github.com/thomas-schreck/hexwerk"
-  url "https://github.com/thomas-schreck/hexwerk/releases/download/v0.1.0/hexwerk-cli-0.1.0-arm64.tar.gz"
-  sha256 "aaf11270b37f4ec229f6b0ee5ac48807d052856a978d9253057b702b88acd211"
+  url "https://github.com/thomas-schreck/hexwerk/releases/download/v0.2.0/hexwerk-cli-0.2.0-arm64.tar.gz"
+  sha256 "da2e4a882dd11012d37abb1e12755249060580dc74114f004394804044c94118"
   license "MIT"
 
   depends_on arch: :arm64
